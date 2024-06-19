@@ -10,10 +10,11 @@ package-mode = false
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
 pandas = "2.1.0"
-numpy = "1.23.2"
+numpy = "1.26.0"
 alibi-detect = "^0.12.0"
 river = "^0.21.1"
 ipykernel = "^6.29.4"
+pandas-stubs = "^2.2.2.240603"
 
 
 [build-system]
